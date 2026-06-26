@@ -1,3 +1,10 @@
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![FastAPI](https://img.shields.io/badge/FastAPI-API-green)
+![YOLO](https://img.shields.io/badge/YOLO-v8-orange)
+![Docker](https://img.shields.io/badge/Docker-Container-blue)
+![PyTorch](https://img.shields.io/badge/PyTorch-DeepLearning-red)
+![License](https://img.shields.io/badge/License-MIT-brightgreen)
+
 # 🤖 Robotics Perception API
 
 
