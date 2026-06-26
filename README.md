@@ -149,7 +149,7 @@ Such a service can be extended for:
 - Edge AI model serving
 - Cloud-based computer vision APIs
 
-### Screenshots
+## Screenshots
 
 ### Home Page
 
