@@ -1,10 +1,11 @@
-# Robotics Perception API
+# 🤖 Robotics Perception API
+
 
 A Dockerized computer vision API for robotics-style perception using YOLO object detection and FastAPI.
 
 This project demonstrates how a trained deep learning model can be exposed as a production-style API, containerized with Docker, and accessed through both browser and API endpoints.
 
-## Overview
+## 🌟 Overview
 
 The application allows users to upload an image and receive object detection results in multiple formats:
 
@@ -15,7 +16,7 @@ The application allows users to upload an image and receive object detection res
 
 This project was built to demonstrate practical AI deployment skills, including model serving, API design, Docker containerization, and cloud-readiness.
 
-## Features
+## ✨ Features
 
 - YOLO-based object detection
 - FastAPI backend
@@ -28,7 +29,7 @@ This project was built to demonstrate practical AI deployment skills, including 
 - Health check endpoint
 - Model versioning and inference latency reporting
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 - Python
 - FastAPI
@@ -38,7 +39,7 @@ This project was built to demonstrate practical AI deployment skills, including 
 - Docker
 - Uvicorn
 
-## Project Structure
+## 📂 Project Structure
 
 ```text
 robotics-perception-api/
@@ -56,7 +57,7 @@ robotics-perception-api/
 └── .gitignore
 ```
 
-## API Endpoints
+## 🔌 API Endpoints
 
 | Method | Endpoint | Description |
 |---|---|---|
@@ -68,7 +69,7 @@ robotics-perception-api/
 | POST | `/detect-view` | Browser view with image, detections, and download option |
 | GET | `/docs` | Swagger API documentation |
 
-## Example JSON Output
+## 📋 Example JSON Output
 
 ```json
 {
@@ -91,7 +92,7 @@ robotics-perception-api/
 }
 ```
 
-## Run Locally
+## 🚀 Run Locally
 
 Create and activate a Python environment, then install dependencies:
 
@@ -117,7 +118,7 @@ Swagger API docs:
 http://127.0.0.1:8000/docs
 ```
 
-## Run with Docker
+## 🐳 Run with Docker
 
 Build the Docker image:
 
@@ -137,7 +138,7 @@ Open:
 http://127.0.0.1:8000/
 ```
 
-## Example Use Case
+## 🎯 Example Use Case
 
 This project represents a simplified robotics perception service where an image frame can be sent to an object detection model, and the API returns detected objects with locations and confidence scores.
 
@@ -149,37 +150,31 @@ Such a service can be extended for:
 - Edge AI model serving
 - Cloud-based computer vision APIs
 
-## Screenshots
+## 🖼️ Screenshots
 
-### Home Page
+<table>
+<tr>
+<td><img src="screenshots/home.png" width="450"></td>
+<td><img src="screenshots/detection.png" width="450"></td>
+</tr>
+<tr>
+<td align="center">🏠 Home Page</td>
+<td align="center">🎯 Detection Result</td>
+</tr>
+</table>
 
-![Home](screenshots/home.png)
+<table>
+<tr>
+<td><img src="screenshots/swagger.png" width="450"></td>
+<td><img src="screenshots/docker.png" width="450"></td>
+</tr>
+<tr>
+<td align="center">📚 Swagger UI</td>
+<td align="center">🐳 Docker Running</td>
+</tr>
+</table>
 
----
-
-### Object Detection
-
-![Detection](screenshots/detection.png)
-
----
-
-### JSON Response
-
-![JSON](screenshots/json.png)
-
----
-
-### Swagger Documentation
-
-![Swagger](screenshots/swagger.png)
-
----
-
-### Docker Container
-
-![Docker](screenshots/docker.png)
-
-## Future Improvements
+## 🔮 Future Improvements
 
 - Deploy to Azure Container Apps
 - Add CI/CD using GitHub Actions
@@ -189,7 +184,7 @@ Such a service can be extended for:
 - Add model selection support
 - Add authentication for API access
 
-## What This Project Demonstrates
+## 💡 What This Project Demonstrates
 
 This project demonstrates the ability to:
 
@@ -200,8 +195,7 @@ This project demonstrates the ability to:
 - Package an AI application with Docker
 - Prepare an ML service for cloud deployment
 
-## Author
-
-Inder Pal Singh
+## 👨‍💻 Author
+Dr. Inder Pal Singh
 
 PhD in Computer Science with focus on AI, Machine Learning, and Computer Vision.
